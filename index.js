@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/client', (req, res) => {
-    res.json({ message: 'Hello client!' });
+    res.json({ message: 'Hello clie nt!' });
 });
 
 const server = app.listen(port, () => {
